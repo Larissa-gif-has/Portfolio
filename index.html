@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Larissa Maria | Analista de Dados & Business Intelligence</title>
+  <meta name="description" content="Portfólio de Larissa Maria: Estudante de ADS e Analista de Dados com foco em Power BI, Python, SQL, Excel Avançado e métricas de negócios.">
+  <meta name="keywords" content="Larissa Maria, Análise de Dados, Business Intelligence, Power BI, Python, SQL, Pandas, DAX, Excel Avançado, Estágio em Dados">
+  <meta name="author" content="Larissa Maria">
+
+  <!-- Open Graph / Meta Social -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Larissa Maria | Analista de Dados & Business Intelligence">
+  <meta property="og:description" content="Portfólio com projetos de Power BI, Excel Avançado, Python, Pandas e análise exploratória de dados.">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/178419528?v=4">
+  <meta property="og:url" content="https://github.com/Larissa-gif-has">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Portfolio Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ======================================================================
+       HEADER / NAVBAR
+       ====================================================================== -->
+  <header class="navbar" role="banner">
+    <div class="container nav-container">
+      <a href="#inicio" class="brand-logo" aria-label="Página Inicial de Larissa Maria">
+        <div class="brand-badge" aria-hidden="true">&lt;LM/&gt;</div>
+        <span>Larissa<span class="gradient-text">.Data</span></span>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav aria-label="Navegação Principal">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#inicio" class="nav-link active">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li><a href="#habilidades" class="nav-link">Competências</a></li>
+          <li><a href="#projetos" class="nav-link">Projetos</a></li>
+          <li><a href="#jornada" class="nav-link">Trajetória</a></li>
+          <li><a href="#contato" class="nav-link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <!-- Navbar Action Controls -->
+      <div class="nav-actions">
+        <!-- Theme Switcher (Dark / Light) -->
+        <button id="theme-toggle" class="theme-btn" aria-label="Alternar modo claro e escuro" title="Alternar tema">
+          <!-- Sun Icon (for dark mode) -->
+          <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"/>
+            <path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/>
+          </svg>
+          <!-- Moon Icon (for light mode) -->
+          <svg id="icon-moon" style="display: none;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/>
+          </svg>
+        </button>
+
+        <!-- CTA Direct Button -->
+        <a href="#contato" class="btn btn-primary btn-sm">
+          <span>Falar Comigo</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ======================================================================
+       HERO SECTION (Apresentação Executiva & Competências de Dados)
+       ====================================================================== -->
+  <section id="inicio" class="hero">
+    <div class="container hero-grid">
+      <!-- Left Content -->
+      <div class="hero-content">
+        <div class="hero-status-pill">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>Buscando Estágio em Análise de Dados & BI</span>
+        </div>
+
+        <h1 class="hero-title">
+          Olá, eu sou <span class="gradient-text">Larissa Maria</span><br>
+          <span class="gradient-text-alt">Analista de Dados</span> & BI em Formação.
+        </h1>
+
+        <p class="hero-description">
+          Estudante de Análise e Desenvolvimento de Sistemas focada em transformar dados brutos em 
+          <strong>indicadores estratégicos, relatórios dinâmicos e dashboards de alto impacto</strong> com Power BI, Python, SQL e Excel.
+        </p>
+
+        <!-- Core Stack Badges Strip -->
+        <div class="hero-skills-strip" aria-label="Principais competências técnicas">
+          <span class="skill-badge">📊 Power BI & DAX</span>
+          <span class="skill-badge">🐍 Python (Pandas / Matplotlib)</span>
+          <span class="skill-badge">🗄️ SQL & Bancos de Dados</span>
+          <span class="skill-badge">📈 Excel Avançado & KPIs</span>
+          <span class="skill-badge">🔄 ETL & Tratamento de Dados</span>
+          <span class="skill-badge">📉 Estatística Descritiva</span>
+        </div>
+
+        <!-- Call to Actions -->
+        <div class="hero-cta-group">
+          <a href="#projetos" class="btn btn-primary">
+            <span>Ver Projetos de Dados</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg>
+          </a>
+
+          <a href="https://wa.me/5511990189532?text=Ol%C3%A1%20Larissa!%20Vi%20seu%20portf%C3%B3lio%20de%20An%C3%A1lise%20de%20Dados%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade." target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>WhatsApp</span>
+          </a>
+
+          <button class="btn btn-outline copy-email-btn" data-email="Lariiisssa.Maariaa@live.com" title="Copiar e-mail oficial">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+            <span>Copiar E-mail</span>
+          </button>
+        </div>
+
+        <!-- Social Media Fast Icons -->
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/larissa-maria-cardoso" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn de Larissa Maria" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+          </a>
+
+          <a href="https://github.com/Larissa-gif-has" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub de Larissa Maria" aria-label="GitHub">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+            </svg>
+          </a>
+
+          <a href="mailto:Lariiisssa.Maariaa@live.com" class="social-link" title="Enviar e-mail para Lariiisssa.Maariaa@live.com" aria-label="E-mail">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Executive Profile Card -->
+      <div class="hero-card-wrapper">
+        <div class="hero-card-glow" aria-hidden="true"></div>
+        <div class="hero-card">
+          <div class="avatar-container">
+            <img src="https://avatars.githubusercontent.com/u/178419528?v=4" alt="Foto de Perfil de Larissa Maria" class="avatar-img" width="150" height="150">
+            <div class="avatar-badge-icon" title="Perfil Técnico em Dados">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+          </div>
+
+          <h2 class="hero-card-name">Larissa Maria Cardoso</h2>
+          <div class="hero-card-role">Data Analytics & Business Intelligence</div>
+          <div class="hero-card-location">
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Suzano, São Paulo — Brasil</span>
+          </div>
+
+          <!-- Stats Grid -->
+          <div class="hero-stats-grid">
+            <div class="stat-item">
+              <span class="stat-number">6</span>
+              <span class="stat-label">Projetos-Chave</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Formações Tech</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Foco em Dados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       ABOUT ME SECTION ("Sobre Mim")
+       ====================================================================== -->
+  <section id="sobre" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Perfil & Trajetória</span>
+        <h2 class="section-title">Integrando Raciocínio de Negócio com <span class="gradient-text">Análise de Dados</span></h2>
+        <p class="section-subtitle">
+          Transformando dados brutos em diagnósticos acionáveis e suporte sólido para tomada de decisões.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Sou estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> com especial dedicação à <strong>Análise de Dados e Business Intelligence</strong>. Minha missão é ajudar equipes e gestores a enxergarem com clareza o desempenho de suas operações, identificando padrões, sazonalidades e oportunidades de otimização.
+          </p>
+
+          <div class="about-highlight-box">
+            <p>
+              "Minha vivência prática no setor comercial e administrativo me deu senso de urgência, atenção aos detalhes e capacidade de conectar métricas frias com a dor real de clientes e tomadores de decisão."
+            </p>
+          </div>
+
+          <p>
+            Experiências profissionais anteriores em vendas consultivas e suporte operacional consolidaram habilidades essenciais para a área de dados: precisão em cálculos de demandas, organização metódica de estoques, emissão e conferência de notas fiscais e raciocínio analítico sob prazos exigentes.
+          </p>
+          <p>
+            No ecossistema de dados, aplico essas competências construindo dashboards no <strong>Power BI</strong> com modelagem relacional e DAX, manipulando grandes conjuntos de dados com <strong>Python e Pandas</strong>, e criando relatórios de performance comercial em <strong>Excel Avançado</strong>.
+          </p>
+        </div>
+
+        <!-- Distinctive Pillars -->
+        <div class="cards-pillar-grid">
+          <div class="pillar-card">
+            <div class="pillar-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/></svg>
+            </div>
+            <div class="pillar-info">
+              <h4>Visão Analítica & Padrões</h4>
+              <p>Capacidade de cruzar bases de dados, diagnosticar anomalias, calcular métricas e sintetizar insights quantitativos claros.</p>
+            </div>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" x2="18" y1="20" y2="10"/><line x1="12" x2="12" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="14"/></svg>
+            </div>
+            <div class="pillar-info">
+              <h4>Comunicação & Data Storytelling</h4>
+              <p>Habilidade de estruturar painéis visuais intuitivos que dialogam tanto com equipes técnicas quanto com a liderança do negócio.</p>
+            </div>
+          </div>
+
+          <div class="pillar-card">
+            <div class="pillar-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="m17 5-5-3-5 3"/><path d="m17 19-5 3-5-3"/><path d="M2 12h20"/><path d="m5 7-3 5 3 5"/><path d="m19 7 3 5-3 5"/></svg>
+            </div>
+            <div class="pillar-info">
+              <h4>Comprometimento & Aprendizado Contínuo</h4>
+              <p>Dedicação constante para aprimorar técnicas e ferramentas, participando ativamente de programas conceituados como UNINTER, Escola da Nuvem e Generation Brasil.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       SKILLS & TECH STACK SECTION
+       ====================================================================== -->
+  <section id="habilidades" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Competências Técnicas</span>
+        <h2 class="section-title">Caixa de Ferramentas do <span class="gradient-text">Analista de Dados</span></h2>
+        <p class="section-subtitle">
+          Tecnologias e metodologias aplicadas em modelagem, tratamento, visualização analítica e automação.
+        </p>
+      </div>
+
+      <div class="skills-categories">
+        <!-- Category 1: Business Intelligence & Dashboards -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon" style="background: linear-gradient(135deg, #0284c7, #2563eb);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" x2="18" y1="20" y2="10"/><line x1="12" x2="12" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="14"/></svg>
+            </div>
+            <h3 class="category-title">Business Intelligence & BI</h3>
+          </div>
+
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span>Power BI & DAX</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="85%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span>Excel Avançado & Dashboards</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="90%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span>Modelagem Relacional (Star Schema)</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="80%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span>Criação de Indicadores de Desempenho (KPIs)</span>
+                <span>88%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="88%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-tags-group">
+            <span class="tag-pill">Power Query</span>
+            <span class="tag-pill">Fórmulas DAX</span>
+            <span class="tag-pill">Data Storytelling</span>
+            <span class="tag-pill">Tabelas Dinâmicas</span>
+          </div>
+        </div>
+
+        <!-- Category 2: Python & Data Science Tools -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon" style="background: linear-gradient(135deg, #0d9488, #0284c7);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5V19A9 3 0 0 0 21 19V5"/><path d="M3 12A9 3 0 0 0 21 12"/></svg>
+            </div>
+            <h3 class="category-title">Python, SQL & Engenharia de Dados</h3>
+          </div>
+
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span>Python para Dados (Pandas & NumPy)</span>
+                <span>82%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="82%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span>SQL & Consultas Relacionais</span>
+                <span>78%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="78%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span>ETL & Limpeza de Bases Dispersas</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="80%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span>Git, GitHub & Versionamento</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="85%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-tags-group">
+            <span class="tag-pill">Jupyter Notebook</span>
+            <span class="tag-pill">Matplotlib / Seaborn</span>
+            <span class="tag-pill">MySQL</span>
+            <span class="tag-pill">Análise Exploratória (EDA)</span>
+          </div>
+        </div>
+
+        <!-- Category 3: Business Acumen & Operations -->
+        <div class="skill-category-card">
+          <div class="category-header">
+            <div class="category-icon" style="background: linear-gradient(135deg, #2563eb, #0d9488);">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <h3 class="category-title">Visão de Negócio & Operações</h3>
+          </div>
+
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span>Resolução Pragmática de Problemas</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="95%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span>Organização de Processos & Rigor em Números</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="95%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span>Comunicação & Relacionamento Interpessoal</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="90%"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-item-header">
+                <span>Trabalho em Equipe & Metodologias Ágeis</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" data-width="90%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-tags-group">
+            <span class="tag-pill">Controle de Estoque & NFs</span>
+            <span class="tag-pill">Cálculo de Tarifas</span>
+            <span class="tag-pill">Atendimento Consultivo</span>
+            <span class="tag-pill">Pensamento Crítico</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       PROJECTS SECTION (Seleção Exclusiva dos 6 Projetos Relevantes)
+       ====================================================================== -->
+  <section id="projetos" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Portfólio em Ação</span>
+        <h2 class="section-title">Projetos Relevantes & <span class="gradient-text">Casos de Estudo</span></h2>
+        <p class="section-subtitle">
+          Seleção focada em Business Intelligence, análise exploratória com Python, painéis executivos e sistemas aplicados.
+        </p>
+      </div>
+
+      <!-- Recruiter Callout Banner -->
+      <div class="recruiter-callout">
+        <div class="recruiter-callout-info">
+          <div class="recruiter-callout-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          </div>
+          <div class="recruiter-callout-text">
+            <h4>Acesso Rápido para Recrutadores & Líderes de Dados</h4>
+            <p>Precisa de informações adicionais ou deseja agendar uma entrevista? Entre em contato direto pelo e-mail <strong>Lariiisssa.Maariaa@live.com</strong> ou WhatsApp.</p>
+          </div>
+        </div>
+        <a href="mailto:Lariiisssa.Maariaa@live.com?subject=Convite%20para%20Entrevista%20-%20Vaga%20em%20Dados" class="btn btn-primary btn-sm">
+          <span>Convidar para Entrevista</span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" x2="11" y1="2" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        </a>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="projects-filter-bar" role="tablist" aria-label="Filtrar projetos por categoria">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Todos os Projetos (6)</button>
+        <button class="filter-btn" data-filter="bi" role="tab" aria-selected="false">📊 Business Intelligence & BI</button>
+        <button class="filter-btn" data-filter="python" role="tab" aria-selected="false">🐍 Python & Ciência de Dados</button>
+        <button class="filter-btn" data-filter="saas" role="tab" aria-selected="false">🚀 SaaS & Sistemas Operacionais</button>
+      </div>
+
+      <!-- Grid of Projects (Only the 6 requested) -->
+      <div class="projects-grid">
+
+        <!-- Project 1: Projeto-Dashboard-PowerBi -->
+        <article class="project-card" data-category="bi data">
+          <div class="project-banner">
+            <div class="project-banner-pattern"></div>
+            <div class="project-icon-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" x2="18" y1="20" y2="10"/><line x1="12" x2="12" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="14"/></svg>
+            </div>
+            <span class="project-category-badge">Power BI Executivo</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Dashboard Estratégico em Power BI</h3>
+            <p class="project-desc">
+              Painel analítico corporativo desenvolvido no Power BI Desktop (.pbix). Estruturado com modelagem relacional, cálculos dinâmicos em DAX para acompanhamento de faturamento, margem e volume de operações, com visuais interativos projetados para suportar tomadas de decisão gerenciais.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Power BI (.pbix)</span>
+              <span class="project-tag">DAX</span>
+              <span class="project-tag">Modelagem de Dados</span>
+              <span class="project-tag">KPIs Gerenciais</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/Larissa-gif-has/Projeto-Dashboard-PowerBi" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                <span>Acessar Projeto Power BI</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: Projeto-Dashboard-Analise-Vendas -->
+        <article class="project-card" data-category="bi data">
+          <div class="project-banner">
+            <div class="project-banner-pattern"></div>
+            <div class="project-icon-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+            </div>
+            <span class="project-category-badge">Excel & Métricas Comerciais</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Dashboard Analítico de Vendas & Faturamento</h3>
+            <p class="project-desc">
+              Painel comercial completo para monitoramento multidimensional de vendas. Apresenta métricas consolidadas de faturamento total, quantidade transacionada, ticket médio e margem de lucro, com segmentações estratégicas por categoria de produto, loja física, marca e região geográfica.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Excel Avançado</span>
+              <span class="project-tag">Gestão de Vendas</span>
+              <span class="project-tag">Margem de Lucro</span>
+              <span class="project-tag">Faturamento</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/Larissa-gif-has/Projeto-Dashboard-Analise-Vendas" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                <span>Repositório do Dashboard</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: analise-lunar -->
+        <article class="project-card" data-category="python data">
+          <div class="project-banner">
+            <div class="project-banner-pattern"></div>
+            <div class="project-icon-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+            </div>
+            <span class="project-category-badge">EDA & Ciência de Dados</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Análise Exploratória de Missões Lunares</h3>
+            <p class="project-desc">
+              Estudo aprofundado de dados (EDA) cobrindo a cronologia histórica dos lançamentos espaciais rumo à Lua. Emprega Python e Pandas para calcular taxas de sucesso por década e país, mapear evolução tecnológica das missões e gerar visualizações gráficas de dispersão temporal.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Pandas</span>
+              <span class="project-tag">Jupyter Notebook</span>
+              <span class="project-tag">Matplotlib</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/Larissa-gif-has/analise-lunar" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                <span>Ver Notebook Lunar</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: analise_de_orquideas -->
+        <article class="project-card" data-category="python data">
+          <div class="project-banner">
+            <div class="project-banner-pattern"></div>
+            <div class="project-icon-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <span class="project-category-badge">Estatística & Tratamento</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Análise Estatística de Cultivo de Orquídeas</h3>
+            <p class="project-desc">
+              Pipeline de tratamento e análise estatística de variáveis ecológicas e botânicas no cultivo de orquídeas. Inclui limpeza e imputação de valores ausentes, identificação de correlações paramétricas entre clima e floração, e geração de gráficos de distribuição com Pandas.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Pandas</span>
+              <span class="project-tag">Estatística Descritiva</span>
+              <span class="project-tag">Tratamento de Dados</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/Larissa-gif-has/analise_de_orquideas" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                <span>Repositório do Estudo</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: estacionamento-saas (Live Demo na Vercel!) -->
+        <article class="project-card" data-category="saas">
+          <div class="project-banner">
+            <div class="project-banner-pattern"></div>
+            <div class="project-icon-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/></svg>
+            </div>
+            <span class="project-category-badge" style="color: var(--color-emerald); border-color: rgba(16,185,129,0.35);">🚀 Deploy Ativo</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Estacionamento SaaS — Gestão & Tarifação</h3>
+            <p class="project-desc">
+              Sistema web para automação de entrada, saída e controle tarifário de veículos. Desenvolvido com regras de negócio em tempo real para cálculo proporcional de permanência, gestão de vagas disponíveis, relatórios de fluxo financeiro e deploy ativo em produção na Vercel.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Aplicação Web</span>
+              <span class="project-tag">Lógica Financeira</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Vercel Deploy</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://estacionamento-saas-rho.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+                <span>Acessar Demo Live</span>
+              </a>
+              <a href="https://github.com/Larissa-gif-has/estacionamento-saas" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6: Projetos-Iniciante-Python -->
+        <article class="project-card" data-category="python">
+          <div class="project-banner">
+            <div class="project-banner-pattern"></div>
+            <div class="project-icon-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <span class="project-category-badge">Fundamentos & Algoritmos</span>
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Projetos Práticos de Programação em Python</h3>
+            <p class="project-desc">
+              Conjunto de desafios e soluções algorítmicas desenvolvidos para fixação dos fundamentos de programação em Python. Exercícios focados em controle de fluxo, manipulação de coleções (listas, tuplas e dicionários), modularização e automação de tarefas cotidianas.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python 3</span>
+              <span class="project-tag">Lógica Computacional</span>
+              <span class="project-tag">Estruturas de Dados</span>
+              <span class="project-tag">Automações</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/Larissa-gif-has/Projetos-Iniciante-Python" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                <span>Ver Códigos no GitHub</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       TIMELINE SECTION (Jornada, Formação Acadêmica & Experiência)
+       ====================================================================== -->
+  <section id="jornada" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Fundamentos & Prática</span>
+        <h2 class="section-title">Formação Acadêmica & <span class="gradient-text">Experiência Profissional</span></h2>
+        <p class="section-subtitle">
+          Como a sólida base teórica e o conhecimento prático de mercado moldam minha capacidade de gerar valor com dados.
+        </p>
+      </div>
+
+      <div class="timeline-container">
+        <!-- Education Column -->
+        <div class="timeline-column">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            <span>Formação Acadêmica & Aceleração</span>
+          </h3>
+
+          <div class="timeline-items">
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <span class="timeline-period">Maio de 2024 — Dezembro de 2027</span>
+              <h4 class="timeline-title">Curso Superior de Tecnologia (CST) em ADS</h4>
+              <div class="timeline-subtitle">UNINTER Centro Universitário Internacional</div>
+              <p class="timeline-desc">
+                Análise e Desenvolvimento de Sistemas com sólida formação em lógica computacional, modelagem e administração de banco de dados, engenharia de software e análise de dados.
+              </p>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <span class="timeline-period">Fevereiro de 2026 — Julho de 2026</span>
+              <h4 class="timeline-title">Formação Técnica em Tecnologia da Informação</h4>
+              <div class="timeline-subtitle">Escola da Nuvem</div>
+              <p class="timeline-desc">
+                Capacitação especializada em computação em nuvem, escalabilidade de serviços, arquiteturas resilientes e governança de dados.
+              </p>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <span class="timeline-period">Julho de 2026 — Outubro de 2026</span>
+              <h4 class="timeline-title">Aceleração Profissional em Information Technology</h4>
+              <div class="timeline-subtitle">Generation Brasil</div>
+              <p class="timeline-desc">
+                Bootcamp intensivo focado em resolução estruturada de problemas, metodologias ágeis, trabalho colaborativo de alto impacto e boas práticas de código.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Professional Experience Column -->
+        <div class="timeline-column">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="7" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            <span>Experiência Profissional & Negócios</span>
+          </h3>
+
+          <div class="timeline-items">
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <span class="timeline-period">Setembro de 2020 — Janeiro de 2021 (5 meses)</span>
+              <h4 class="timeline-title">Vendedora & Atendimento Técnico</h4>
+              <div class="timeline-subtitle">Kazza das Ferragens (Plywood) — Suzano, SP</div>
+              <p class="timeline-desc">
+                Atendimento consultivo com <strong>cálculos de alta precisão para cortes de madeira</strong> e registro de especificações em sistema de gestão. Responsável pelo cadastro de produtos, emissão e conferência de notas fiscais, controle minucioso de estoque e organização de pedidos.
+              </p>
+            </div>
+
+            <div class="timeline-item">
+              <span class="timeline-dot"></span>
+              <span class="timeline-period">Fevereiro de 2020 — Abril de 2020 (3 meses)</span>
+              <h4 class="timeline-title">Vendedora & Suporte Operacional</h4>
+              <div class="timeline-subtitle">Casa das Alianças — São Paulo, SP</div>
+              <p class="timeline-desc">
+                Atendimento a clientes de alta exigência, compreendendo demandas específicas e orçamentos. Atuação na organização de vitrines, controle de inventário de produtos e suporte direto nas rotinas de fechamento financeiro de caixa.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       CONTACT SECTION (Canais Oficiais & Conversão Imediata)
+       ====================================================================== -->
+  <section id="contato" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Conexão Profissional</span>
+        <h2 class="section-title">Vamos Conversar Sobre <span class="gradient-text">Oportunidades?</span></h2>
+        <p class="section-subtitle">
+          Estou disponível para vagas de estágio em Análise de Dados, Business Intelligence (BI) e Analytics.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Information Card -->
+        <div class="contact-info-card">
+          <h3>Canais de Contato Direto</h3>
+          <p>
+            Fique à vontade para me contatar através de qualquer um dos canais abaixo. Respondo prontamente a oportunidades de estágio e projetos!
+          </p>
+
+          <div class="contact-methods">
+            <!-- Email Item -->
+            <div class="contact-method-item">
+              <div class="contact-method-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div class="contact-method-meta">
+                <span>E-mail Oficial</span>
+                <strong>Lariiisssa.Maariaa@live.com</strong>
+              </div>
+              <button class="copy-email-btn" data-email="Lariiisssa.Maariaa@live.com" title="Copiar E-mail">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+              </button>
+            </div>
+
+            <!-- WhatsApp Item -->
+            <a href="https://wa.me/5511990189532?text=Ol%C3%A1%20Larissa!%20Gostaria%20de%20conversar%20sobre%20uma%20oportunidade%20de%20est%C3%A1gio%20em%20Dados." target="_blank" rel="noopener noreferrer" class="contact-method-item" style="text-decoration: none;">
+              <div class="contact-method-icon" style="background: rgba(21, 128, 61, 0.15); color: #16a34a;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact-method-meta">
+                <span>WhatsApp / Celular</span>
+                <strong>+55 (11) 99018-9532</strong>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: auto; color: var(--text-dim);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+            </a>
+
+            <!-- LinkedIn Item -->
+            <a href="https://www.linkedin.com/in/larissa-maria-cardoso" target="_blank" rel="noopener noreferrer" class="contact-method-item" style="text-decoration: none;">
+              <div class="contact-method-icon" style="background: rgba(2, 132, 199, 0.15); color: #0284c7;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+              </div>
+              <div class="contact-method-meta">
+                <span>LinkedIn Profissional</span>
+                <strong>linkedin.com/in/larissa-maria-cardoso</strong>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: auto; color: var(--text-dim);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+            </a>
+
+            <!-- GitHub Item -->
+            <a href="https://github.com/Larissa-gif-has" target="_blank" rel="noopener noreferrer" class="contact-method-item" style="text-decoration: none;">
+              <div class="contact-method-icon" style="background: rgba(37, 99, 235, 0.15); color: #2563eb;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              </div>
+              <div class="contact-method-meta">
+                <span>Repositórios GitHub</span>
+                <strong>github.com/Larissa-gif-has</strong>
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: auto; color: var(--text-dim);"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" x2="21" y1="14" y2="3"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Interactive Contact Form -->
+        <div class="contact-form-card">
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name" class="form-label">Seu Nome / Empresa</label>
+              <input type="text" id="name" class="form-control" placeholder="Ex: Roberto Silva (Empresa XPTO)" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Seu E-mail Corporativo</label>
+              <input type="email" id="email" class="form-control" placeholder="Ex: roberto@empresa.com.br" required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject" class="form-label">Assunto</label>
+              <input type="text" id="subject" class="form-control" placeholder="Ex: Oportunidade de Estágio em Análise de Dados" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Mensagem</label>
+              <textarea id="message" class="form-control" placeholder="Olá Larissa, vimos seus projetos e gostamos muito do seu perfil analítico. Gostaríamos de bater um papo..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" x2="11" y1="2" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              <span>Enviar Mensagem</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       FOOTER
+       ====================================================================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-content">
+      <div class="brand-logo" style="font-size: 1.2rem;">
+        <div class="brand-badge" style="width: 32px; height: 32px; font-size: 0.9rem;" aria-hidden="true">&lt;LM/&gt;</div>
+        <span>Larissa Maria Cardoso</span>
+      </div>
+
+      <div class="footer-copy">
+        © 2026 Larissa Maria • Portfólio de Análise de Dados & Business Intelligence • E-mail: Lariiisssa.Maariaa@live.com
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       TOAST NOTIFICATION COMPONENT
+       ====================================================================== -->
+  <div id="toast" class="toast" role="status" aria-live="polite">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--color-primary);"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+    <span id="toast-message">Notificação</span>
+  </div>
+
+  <!-- JavaScript Interaction Logic -->
+  <script src="js/main.js"></script>
+</body>
+</html>
